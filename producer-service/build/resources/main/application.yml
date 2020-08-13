@@ -1,0 +1,12 @@
+server:
+  port: 18080
+
+spring:
+  application:
+    name: producer-service
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+application:
+  calculationSeed: 0.777
